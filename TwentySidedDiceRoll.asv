@@ -87,8 +87,7 @@ sd = sqrt(var)
 % xbar will be a random value from 1 to 20 and
 % sdxbar will always be 0 because the only sample
 % point is the mean, and that sample point varies
-% 0 from the mean, thus sdxbar = 0
-
+% 0 from the mean, thus sd
 % Note: xbar and sdxbar will vary from random sample to random
 % sample since they are dependent on those N values
 % However, mu and sd are theoretically fixed and will never changed
