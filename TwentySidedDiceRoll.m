@@ -45,6 +45,7 @@ mu = sum(1:20)/20
 % ==> var = 1^2 * 1/20 + 2^2 * 1/20 + ... + 20^2 *1/20 - (10.5)^2
 % ==> var = 1/20(1^2 + 2^2 + ... + 20^2) - 10.5^2
 % Again, there is a derivation for the sum of the first n squares
+% This is left as an exercise to the reader (:
 % but for convenience, we can make MATLAB calculate this
 
 var = sum((1:20).^2)/20 - 10.5^2;
